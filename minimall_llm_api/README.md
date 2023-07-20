@@ -33,7 +33,9 @@ So, in this case i'm using a small model, so this model don't requires too much 
 ```python
 hf_model='MBZUAI/LaMini-T5-738M'
 ``` 
-And i'm using max of 256 tokens, and a *ml.g4dn.xlarge* for the predictor cluster.
+I am currently using a maximum of 256 tokens, and for the predictor cluster, I am utilizing an *ml.g4dn.xlarge* instance.
+But it's essentially the same concept, just on a larger scale to accommodate bigger models.
+
 So, in reference to now, which type of instance should we use? Take note of this:
 
 | Model    | Instance Type      | Max Batch Size          | Context Length |
