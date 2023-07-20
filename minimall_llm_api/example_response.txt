@@ -1,0 +1,13 @@
+Here's the code to filter a column in a Pandas dataframe called 'files' with a list: python 
+
+import pandas as pd 
+# Load the data into pandas dataframe 
+
+data = pd.read_csv('files') 
+
+# Filter the data in the data with a list of filtered columns 
+
+filtered_column = filtered_column['files'] 
+# Print the filtered list 
+
+print(filtered_column)  This code will output: 
