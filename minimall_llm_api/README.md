@@ -1,7 +1,13 @@
 ## Overview
 This repository offers a concise guide for deploying a Language Model (LLM) on Amazon SageMaker and creating an API to interact with the deployed endpoint. Using SageMaker, the LLM is trained and hosted as an API endpoint, accepting text inputs and generating language-based predictions. The API, built with Python and frameworks like Flask or FastAPI, processes user requests, sends them to the SageMaker endpoint, and delivers responses back to users. The repository includes documentation and examples for easy setup and customization. With this powerful combination of LLM and API, various language-related applications, such as chatbots and sentiment analysis tools, become readily accessible.
 ## Steps
-Follow next steps
+Follow next steps to create the next infraestructure:
+
+**Basic architecture**
+This is a basic architecture for this deployment that could ensure the data used in these kinds of applications.
+
+![Basic Arch.](img/LLM_AWS_TEST.png)
+
 ## 1. Create in Sagemaker a Notebook Instance
 In this case, I will use the *ml.c5.2xlarge* type. The role is essentially used to gain access to S3 buckets.
 
@@ -60,11 +66,6 @@ For the Lambda function, the repository contains two files:  **lambda_code.py** 
 
 ![stp1_11](img/sgmk_stp11.png)
 ![stp1_12](img/sgmk_stp12.png)
-
-## Basic architecture
-This is a basic architecture for this deployment that could ensure the data used in these kinds of applications.
-
-![Basic Arch.](img/LLM_AWS_TEST.png)
 
 ## References
 
